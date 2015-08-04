@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a,button,input,h1,h2,h3{
+    transition: all 0.2s ease-out;
+}
+
+input,button{
+    font-size: 100%;
+    font-family: Microsoft Yahei;
+    font-weight: normal;
+}
+
+html{
+    min-height: 100%;
+}
+
+body{
+    background: url(images/bg.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-size: 100%;
+    font-family: Microsoft Yahei;
+}
+
+.header{
+    position: relative;
+    overflow: hidden;
+    max-width: 450px;
+    margin: 20px auto;
+    background: #2f2f2f;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-box-shadow: #999 0 2px 10px;
+    -moz-box-shadow: #999 0 2px 10px;
+    box-shadow: #999 0 2px 10px;
+}
+
+.header a{
+    position: relative;
+    overflow: hidden;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.header a:hover{
+    background: #505050;
+}
+
+.header a.curr{
+    color: #999;
+}
+
+.header a.right{
+    float: right;
+}
+
+.wrapper{
+    position: relative;
+    overflow: hidden;
+    max-width: 450px;
+    margin: 10px auto;
+    background: #fff;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-box-shadow: #999 0 2px 10px;
+    -moz-box-shadow: #999 0 2px 10px;
+    box-shadow: #999 0 2px 10px;
+}
+
+.title{
+    position: relative;
+    overflow: hidden;
+    background: #2f2f2f;
+    padding: 10px;
+}
+
+.title h1{
+    float: left;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.title .btn{
+    position: relative;
+    overflow: hidden;
+    float: right;
+    font-size: 1em;
+    margin: 10px;
+    padding: 3px 18px 5px;
+    background: #32b432;
+    border: 0;
+    border-radius: 2px;
+    color: white;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.title .btn:hover{
+    background-color: #3dce3d;
+}
+
+.title .ipt{
+    position: relative;
+    overflow: hidden;
+    float: right;
+    margin: 10px 0;
+    padding: 3px;
+    font-size: 1em;
+    width: 100px;
+    border: 1px solid #515151;
+    border-radius: 2px;
+    background: #515151;
+    color: #ccc;
+}
+
+.title .ipt:focus{
+    width: 150px;
+    border: 1px solid #454545;
+    background: #454545;
+    outline: none;
+    color: #ccc;
+}
+
+.footer{
+    position: relative;
+    overflow: hidden;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 0.7em;
+    color: #333;
+}

@@ -1,0 +1,83 @@
+.saving{
+    position: absolute;
+    top: -20px;
+    width: 100%;
+    height: 100%;
+    padding: 30% 0;
+    background: rgba(0,0,0,0.75);
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    z-index: 999;
+    display: none;
+}
+
+.profile{
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.profile p{
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.profile .avatar label{
+    padding: 15px 0;
+}
+
+.profile .avatar img{
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+
+.profile label{
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 30%;
+    margin-right: 5%;
+    text-align: right;
+    padding: 1px 0;
+}
+
+.profile .ipt{
+    float: left;
+    position: relative;
+    overflow: hidden;
+    padding: 2px;
+    font-size: 1em;
+    width: 50%;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+}
+
+.profile .rad{
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.profile .radval{
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    padding: 3px 25px 3px 3px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.profile span{
+    float: left;
+    position: relative;
+    overflow: hidden;
+    padding: 1px;
+}

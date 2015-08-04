@@ -1,0 +1,33 @@
+.sending{
+    position: relative;
+    overflow: hidden;
+    font-size: 1em;
+    color: #333;
+    background: #ffffe1;
+    text-align: center;
+    padding: 15px;
+    display: none;
+}
+
+.send{
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.send .content{
+    position: relative;
+    overflow: auto;
+    width: 96%;
+    height: 180px;
+    padding: 2%;
+    border: 1px solid #ccc;
+    color: #333;
+    background: #f7f7f7;
+    font-size: 1.1em;
+    font-family: Microsoft Yahei;
+}
+
+.send .content:focus{
+    outline: none;
+}

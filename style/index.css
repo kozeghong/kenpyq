@@ -1,0 +1,121 @@
+html{
+    height: 100%;
+}
+
+.wrapper{
+    max-width: 450px;
+    margin-top: 80px;
+}
+
+.loginheader{
+    position: relative;
+    overflow: hidden;
+    background: rgb(47,47,47);
+    padding: 35px;
+}
+
+.loginmenu{
+    position: relative;
+    overflow: hidden;
+    padding: 10px 30px;
+}
+
+h1{
+    position: relative;
+    overflow: hidden;
+    background: url(images/logo.gif) no-repeat;
+    padding: 10px;
+    margin: 0 auto;
+    width: 160px;
+    text-align: right;
+    font-weight: normal;
+    font-size: 2em;
+    color: #fff;
+}
+
+h2{
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin: 10px 0;
+    width: 50%;
+    text-align: center;
+    font-weight: normal;
+    color: #999;
+    cursor: pointer;
+}
+
+h2.cur{
+    color: #000;
+    cursor: default;
+}
+
+#loginbox,#regbox{
+    position: relative;
+    overflow: hidden;
+    clear: both;
+    padding: 0 30px;
+}
+
+#regbox{
+    display: none;
+}
+
+p{
+    position: relative;
+    overflow: hidden;
+    margin: 8px;
+    padding: 8px;
+    font-size: 1.2em;
+}
+
+.err{
+    text-align: center;
+    font-weight: bold;
+    color: #990000;
+    display: none;
+}
+
+label{
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 30%;
+    margin-right: 5%;
+    text-align: right;
+    padding: 1px 0;
+}
+
+.ipt{
+    float: left;
+    position: relative;
+    overflow: hidden;
+    padding: 2px;
+    font-size: 1em;
+    width: 50%;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+}
+
+.btn{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 1.3em;
+    padding: 3px 28px 5px;
+    background: #3a3a3a;
+    border: 0;
+    border-radius: 2px;
+    color: white;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #505050;
+}
+
+.footer{
+    margin-top: 100px;
+    color: #666;
+}

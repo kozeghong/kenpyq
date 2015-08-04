@@ -1,0 +1,120 @@
+.adding{
+    position: relative;
+    overflow: hidden;
+    font-size: 1em;
+    color: #333;
+    background: #ffffe1;
+    text-align: center;
+    padding: 15px;
+    display: none;
+}
+
+.newfriend{
+    position: relative;
+    overflow: hidden;
+}
+
+.newfriend p{
+    position: relative;
+    overflow: hidden;
+    padding: 13px;
+    border-bottom: 1px solid #eee;
+}
+
+.newfriend p img{
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.newfriend p span{
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding: 3px;
+    color: #333;
+}
+
+.newfriend p button{
+    position: relative;
+    overflow: hidden;
+    float: right;
+    font-size: 1em;
+    padding: 1px 8px 3px;
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #666;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.newfriend p button:hover{
+    background: #3dce3d;
+    border: 1px solid #3dce3d;
+    color: #fff;
+}
+
+.newfriend{
+    position: relative;
+    overflow: hidden;
+
+}
+
+h2{
+    position: relative;
+    overflow: hidden;
+    padding: 10px 20px;
+    font-weight: normal;
+    color: #333;
+    background: #f5f5f5;
+    border-bottom: 1px solid #eee;
+}
+
+.contact{
+    position: relative;
+    overflow: hidden;
+}
+
+.contact p{
+    position: relative;
+    overflow: hidden;
+    padding: 13px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.contact p:hover{
+    background: #f7f7f7;
+}
+
+.contact p img{
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 48px;
+    height: 48px;
+    border: 0;
+    margin-right: 5px;
+}
+
+.contact p span{
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding: 8px;
+    font-size: 1.3em;
+    color: #333;
+}
+
+.contact p .whatsup{
+    position: relative;
+    overflow: hidden;
+    margin-left: 10px;
+    padding: 12px;
+    font-size: 1em;
+    color: #999;
+}
